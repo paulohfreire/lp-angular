@@ -16,13 +16,14 @@
       </h2>
 
     </div>
-    <p>não sabem como lidar com problemas de <b>escalabilidade</b> e grande volume de requisiões.</p>
+    <p>não sabem como lidar com problemas de <b>escalabilidade</b> e grande volume de requisições.</p>
   </section>
   <section class="cta-section">
-    <btn-primary btn-text="Entre em contato conosco"></btn-primary>
+    <app-btn-secondary btn-text="Entre em contato conosco" targetSection="#form"
+      label="Go to Section 1"></app-btn-secondary>
   </section>
 
-  <app-form></app-form>
+  <app-form id="form"></app-form>
   <section class="benefit-section pad-70">
     <app-benefits card-title="Equipe capacitada" img-path="/assets/team.jpg"
       card-description="Foto de Annie Spratt. Uso gratuito sob a Licença da Unsplash">
@@ -37,7 +38,8 @@
   <section class="cta-section pad-70">
     <h2>Quer elevar seu software e seus<br />
       negócios para outro nível?</h2>
-    <btn-primary btn-text="fale com nossos especialistas"></btn-primary>
+    <app-btn-secondary btn-text="fale com nossos especialistas" targetSection="#form"
+      label="Go to Section 1"></app-btn-secondary>
   </section>
   <app-footer></app-footer>
 </main>

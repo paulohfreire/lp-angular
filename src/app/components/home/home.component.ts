@@ -5,6 +5,7 @@ import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { FormComponent } from '../form/form.component';
 import { BenefitsComponent } from '../benefits/benefits.component';
 import { FooterComponent } from '../footer/footer.component';
+import { BtnSecondaryComponent } from '../btn-secondary/btn-secondary.component';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,7 @@ import { FooterComponent } from '../footer/footer.component';
     FormComponent,
     BenefitsComponent,
     FooterComponent,
+    BtnSecondaryComponent,
   ],
 })
 export class HomeComponent {}
