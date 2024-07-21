@@ -37,7 +37,7 @@ main {
 .benefit-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
 
   gap: 40px;
@@ -107,6 +107,32 @@ main {
       font-size: 40px;
     }
   }
+  .cta-section h2 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    flex-direction: row;
+    span {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 72px;
+    }
+  }
+
+  .benefit-section {
+    flex-direction: row;
+    .benefit-data h2 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+
   .cta-section h2 {
     font-size: 60px;
   }

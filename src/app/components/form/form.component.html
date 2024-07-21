@@ -15,7 +15,8 @@
     <input id="name" type="text" formControlName="name">
     <label for="email">Email</label>
     <input id="email" type="text" formControlName="email">
-    <btn-primary btn-text="ENVIAR" variant="secondary" (submit)="submit()" [disabled]="!appForm.valid"></btn-primary>
+    <btn-primary btn-text="ENVIAR" variant="secondary" (submit)="submit()" [disabled]="!appForm.valid"
+      [loading]="loading()"></btn-primary>
   </form>
 
 
