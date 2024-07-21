@@ -1,27 +1,35 @@
-# LpAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+# Landing page Angular
 
-## Development server
+Modelo de landing page básica de apresentação de empresa utilizando Angular 17.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshots
 
-## Code scaffolding
+![App Screenshot](https://i.ibb.co/tq1WVzf/screenshot.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Template de uma home page 
+- Componentes Header, section, form, footer.
+- Responsividade
+- Multiplataforma
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Documentação
 
-## Running end-to-end tests
+[Documentação](https://next.angular.dev/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Etiquetas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
